@@ -31,23 +31,10 @@ from sklearn.ensemble import RandomForestClassifier
 from fuzzywuzzy import fuzz
 from geopy.distance import vincenty
 
-"""
-This assignment can be done in groups of 3 students. Everyone must submit individually.
 
-Write down the UNIs of your group (if applicable)
 
-Name : Yijia Chen 
-Uni  : yc3425
-
-Name : Yiwen Zhang
-Uni  : yz3310
-
-Name : Haotian Zeng
-Uni  : hz2494
-
-"""
-
-dir="/Users/cqj/Desktop/Columbia/2018Spring/COMS 4121 ComSys/HW3/"
+# set directory
+dir="your directory"
 with open(dir+'locu_train.json') as f:
     locu_train = json.loads(f.read())
 
